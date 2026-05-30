@@ -1,0 +1,22 @@
+        .container{
+            width: 800px;
+            margin: 0 auto;
+        }
+        /* ff-255, 0-0 */
+        h2 {  color: #ff0000 }
+        p  {  
+            /* 줄간격 -2(2배) */
+            line-height: 2;
+            font-family: 바탕체;
+        }
+        /* 선택자 - id 인경우 는 # 을 앞에 붙이고 ,class 인경우는 .(점) 붙임*/
+        #p1{
+            background-color: greenyellow;
+        }
+        #p2{
+            background-color: yellow;
+        }
+        .accent {
+            color:  #ff0000;
+            font-weight: bold;
+        }

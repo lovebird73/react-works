@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while ~if~ break 문 예제</title>
+</head>
+<body>
+    <script>
+        let i = 1 ;
+
+
+        // while( true) {
+        //     console.log(i);
+
+        //     i++;
+
+        //     if ( i >5) {
+        //         break;
+        //     }
+        // }
+
+        // 키보드 입력
+
+        while (true) {
+            // prompt("데이타", 힌트);
+            let key = prompt("계속할까요?" ,'y/n' );
+            if ( key == 'y' || key == 'Y') {
+                alert('반복합니다');
+
+            }   else if ( key == 'n' || key == 'N') {
+                alert('중단합니다');
+                break;
+            } else {
+                alert('잘못된 입력입니다.');
+            }
+        }
+
+        console.log("프로그램 종료");
+    </script>
+
+</body>
+</html>

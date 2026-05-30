@@ -1,0 +1,19 @@
+form{
+    margin: 20px;
+}
+#loginForm{
+    width: 350px;
+    border: 2px dotted #ccc;
+}
+
+ul {list-style:none;}
+
+ul li{
+    /* TOP right:  bottom: left: ;;; */
+    margin: 20px 10px ;
+}
+
+button {
+
+    padding : 5px 10px
+}
