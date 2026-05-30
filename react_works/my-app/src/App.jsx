@@ -7,7 +7,10 @@ import Test01 from './practice/Test01'
 import Test03 from './practice/Test03'
 import Test02 from './practice/Test02'
 import Example03 from './components/Example03'
-
+import InputValue from './components/InputValue'
+import Test04 from './practice/Test04'
+import Dog from './components/Dog'
+import Dog2 from './components/Dog2'
 function MyButton (){
   return (
     <>
@@ -24,14 +27,26 @@ function App() {
   return (
     <div>
       <section id="center">
-         {/* <h2>리액트 시작하기</h2>  */}
+        
+        {/* <h2>리액트 시작하기</h2>  */}
 
         {/*<Season />*/ }
 
         {/* <Example01/> */}
 
-        <Example03 />
+        {/* <Example03 /> */}
 
+        {/* < InputValue /> */}
+        {/* <  Test04 /> */}
+        {/* props 연습 */}
+        < Dog 
+            breed ="말티즈"
+            age ={2}
+        />
+        < Dog2 
+            breed ="웰시코기"
+            age ={5}
+        />
 
       </section>
       <section id ="subCenter" >
