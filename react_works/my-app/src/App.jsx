@@ -11,6 +11,10 @@ import InputValue from './components/InputValue'
 import Test04 from './practice/Test04'
 import Dog from './components/Dog'
 import Dog2 from './components/Dog2'
+
+import Box from './children/Box'
+import Profile from './children/Profile'
+
 function MyButton (){
   return (
     <>
@@ -39,15 +43,16 @@ function App() {
         {/* < InputValue /> */}
         {/* <  Test04 /> */}
         {/* props 연습 */}
-        < Dog 
+        {/* < Dog 
             breed ="말티즈"
             age ={2}
         />
         < Dog2 
             breed ="웰시코기"
             age ={5}
-        />
-
+        /> */}
+        
+        <Profile />
       </section>
       <section id ="subCenter" >
         {/* <h2> JSX 문법 배우기</h2> */}

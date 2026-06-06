@@ -16,3 +16,17 @@ button {
   margin: 10px;
   
 }
+
+/* ima 태그는 inline 태그이므로 수직으로 바꿔줌*/
+.avatar{
+  display : block; /*수직*/
+  border-radius : 5px;  
+
+}
+
+.card{
+  border : 3px sold #06cccc;
+  border-radius : 10px;
+  max-width : 500px;
+  padding : 10px auto; /*가운데배치*/ 
+}

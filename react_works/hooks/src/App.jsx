@@ -7,23 +7,20 @@ import Counter from './components/Counter'
 import Car from './components/Car'
 import Drinks from './components/Drinks'
 import Drinks2 from './components/Drinks2'
+import UserList from './components/UserList'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <section className="app">
-          <h2>
-           상태 관리 실습
-
-          {/* <Drinks />  */}
-          
-
-          <Drinks2 />
-          </h2>    
+    <>
+      <section className='app'>
+        <h2>상태 관리 실습</h2>
+        {/* <Counter /> */}
+        {/* <Car /> */}
+        {/* <Drinks /> */}
+        <UserList />
       </section>
-    </div>
+    </>
   )
 }
 
